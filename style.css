@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero{
+    width: 100%;
+    height: 530px;
+    background-image: url('	https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+}
+
+.navbar{
+    margin-left: 10px;
+    margin-right: 50px;
+    height: 50px;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+}
+
+.navbar h3{
+    font-weight: 400;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_left, .navbar_right{
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar_right{
+    width: 550px;   
+}
+.navbar_left{
+    width: 150px;
+}
+.container{
+    margin-top: 20px;
+    color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container img{
+    padding: 10px;
+    margin-top: 130px;
+}
+.container p{
+    font-size: 40px;
+    font-weight: 400;
+}
+.searchbar{
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-right: 10px;
+    border-radius: 6px;
+    width: 900px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(225,134,134)
+}
+.black{
+    color: rgb(122,122,122)
+}
+.line{
+    font-weight: 50;
+    font-size: 30px;
+}
+.searchbar select{
+    height: 100%;
+    width: 300px;
+    font-size: 100%;
+    outline: none;
+    border: none;
+}
+.searchbar input{
+    height: 100%;
+    width: 450px;
+    font-size: 100%;
+    outline: none;
+    border: none;
+}
+.red{
+    color: red;
+}
+.navbar h3,.navbar i,.card{
+    cursor: pointer;
+}
+.card_container{
+    width: 100%;
+    padding: 50px;
+}
+.card{
+    height: 250px;
+    width: 375px;
+    border: 1px rgb(122,122,122) solid;
+    border-radius: 8px;
+    transition:all .3s ease-in-out;
+
+}
+h2,.card_container h4{
+    padding-left: 12px;
+}
+.card_container h4{
+    color: rgba(41, 40, 40, 0.63);
+    font-weight: 450;
+}
+h2{
+    font-weight: 500;
+    color: rgba(17, 16, 16, 0.884);
+    padding-top: 10px;
+}
+.card_container :hover{
+    transform: scale(1.1);
+}
+.image1,.image2,.image3{
+    width: 100%;
+    height: 70%;
+    border-radius: 8px;
+    background-color: red;
+     background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.image1{
+    background-image: url(https://images.everydayhealth.com/images/healthy-dishes-to-order-at-indian-restaurants-1440x810.jpg);
+   
+}
+.image2{
+    background-image: url(https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80);
+}
+.image3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScRe2RaO7cgpQfrx2t5_4LVV2MVxdbaiTSDg&usqp=CAU);
+}
